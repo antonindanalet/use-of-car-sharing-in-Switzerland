@@ -6,6 +6,8 @@ Results can be found as CSV files in the folder '<a href="https://github.com/ant
 - as <a href="https://github.com/antonindanalet/use-of-car-sharing-in-Switzerland/blob/master/output/2021/Parts_moyen_de_transport_2021.csv">absolute distances</a> or 
 - as <a href="https://github.com/antonindanalet/use-of-car-sharing-in-Switzerland/blob/master/output/2021/Parts_moyen_de_transport_pourcentage_2021.csv">relative percentages</a>.
 
+Car sharing represents 0.11% of daily distances made by the resident population of Switzerland.
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for reproducing the result and understanding how it has been generated.
 
