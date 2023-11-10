@@ -84,7 +84,7 @@ def compute_mode_share(mtmc_year, percentage):
     else:
         new_file_name = 'Parts_moyen_de_transport_' + str(mtmc_year) + '.csv'
     # Save in folder output
-    df_for_csv.to_csv(folder_path_output / new_file_name, index=False, sep=';', encoding='iso-8859-1')
+    df_for_csv.to_csv(folder_path_output / new_file_name, index=False, sep=',', encoding='iso-8859-1')
 
 
 def compute_distances_and_conf_interval_per_mode(df_etappen, df_zp, identification_columns, percentage, list_of_modes,
