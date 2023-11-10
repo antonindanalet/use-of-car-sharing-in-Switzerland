@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 from utils_mtmc.compute_confidence_interval import get_weighted_avg_and_std
-from utils_mtmc.get_mtmc_files import get_zp, get_etappen, get_hh
+from utils_mtmc.get_mtmc_files import get_zp, get_etappen
 from utils_mtmc.codage import *
 
 
