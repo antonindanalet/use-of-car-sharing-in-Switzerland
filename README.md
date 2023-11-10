@@ -2,6 +2,10 @@
 
 This code computes the modal shares in Switzerland, in particular the share of car sharing, based on 2021 data. The modal shares are defined as daily *distances*.
 
+Results can be found as CSV files in the folder '<a href="https://github.com/antonindanalet/use-of-car-sharing-in-Switzerland/tree/master/output/2021">output/2021</a>':
+- as <a href="https://github.com/antonindanalet/use-of-car-sharing-in-Switzerland/blob/master/output/2021/Parts_moyen_de_transport_2021.csv">absolute distances</a> or 
+- as <a href="https://github.com/antonindanalet/use-of-car-sharing-in-Switzerland/blob/master/output/2021/Parts_moyen_de_transport_pourcentage_2021.csv">relative percentages</a>.
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for reproducing the result and understanding how it has been generated.
 
