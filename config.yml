@@ -1,0 +1,3 @@
+# Mobility and Transport Microcensus - add the path to the raw data
+path_to_2021_zielpersonen: add_path_to_file_zielpersonen.csv
+path_to_2021_etappen: add_path_to_file_etappen.csv
