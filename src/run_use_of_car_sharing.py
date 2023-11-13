@@ -22,9 +22,9 @@ def compute_mode_share(mtmc_year, percentage):
     list_of_modes = ['A pied', 'Vélo (incl. vélo électrique)', 'Deux-roues motorisé', 'Voiture (car sharing)',
                      'Voiture (autre)', 'Transports publics routiers', 'Train', 'Autres']
     if percentage:
-        columns = ['Agglomération', 'Echantillon']
+        columns = ['Echantillon']
     else:
-        columns = ['Agglomération', 'Echantillon', 'Total', 'Total (+/-)']
+        columns = ['Echantillon', 'Total', 'Total (+/-)']
     for mode_simple in list_of_modes:
         columns.extend([mode_simple, mode_simple + ' (+/-)'])
     df_for_csv = pd.DataFrame(columns=columns)
@@ -68,7 +68,6 @@ def compute_mode_share(mtmc_year, percentage):
                                                                     identification_columns=identification_columns,
                                                                     list_of_modes=list_of_modes)
     dict_km_per_mode['Echantillon'] = sample
-    dict_km_per_mode['Agglomération'] = 'Suisse'
     if percentage is False:
         dict_km_per_mode.update(dict_total_km)
     df_dict_km_per_mode = pd.DataFrame([dict_km_per_mode])  # Transform the dictionary into a dataframe for concatenate
